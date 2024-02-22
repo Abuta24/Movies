@@ -93,6 +93,8 @@ input{
         border-radius: 20px;
         margin: 32px;
         justify-content: start;
+        z-index: 10;
+        position: fixed;
     }
     nav{
         flex-direction: column;

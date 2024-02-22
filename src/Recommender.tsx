@@ -10,6 +10,7 @@ interface RecommenderProps {
 
 const Recommender: React.FC<RecommenderProps> = ({ title, items }) => {
   const recommendedItems = items.filter(item => !item.isBookmarked && !item.isTrending);
+  console.log(items)
 
   return (
     <div className="recommender">

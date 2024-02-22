@@ -21,7 +21,7 @@ export default function Home() {
     <div className="div">
     <h1 className='trend'>Trending</h1>
     <div className='splide-container'>
-      <Splide options={{ perPage: 1, gap: '1rem', arrows: false }}> 
+      <Splide options={{ perPage: 2.5, gap: '1rem', arrows: false }}> 
         {Data.filter((item) => item.isTrending).map((item) => (
           <SplideSlide key={item.title}>
             <div className='main'>

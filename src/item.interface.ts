@@ -1,15 +1,19 @@
-
 export interface Item {
-    title: string;
-    thumbnail: {
-      regular: {
-        small: string;
-      };
+  title: string;
+  thumbnail: {
+    regular: {
+      large: string;
+      medium: string;
+      small: string;
     };
-    isBookmarked: boolean;
-    year: string;
-    category: string;
-    rating: string;
-    isTrending: boolean;
-  }
-  
+    trending?: {
+      large: string;
+      small: string;
+    };
+  };
+  isBookmarked: boolean;
+  year: number;
+  category: string;
+  rating: string;
+  isTrending: boolean;
+}
