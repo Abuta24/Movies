@@ -1,5 +1,6 @@
 import React from 'react';
 import './Recommender.css';
+import Item  from './data.json'; 
 
 interface RecommenderProps {
   title: string;
@@ -16,8 +17,8 @@ const Recommender: React.FC<RecommenderProps> = ({ title, items }) => {
         {recommendedItems.map((item, index) => (
           <div key={index} className="recommender-item">
             <div className="xuina">
-              <img className='foto' src={item.thumbnail.regular.small} alt={item.title} />
-              <div className='rame1'>
+            <img className='foto' src={item.thumbnail.regular.small} alt={item.title} />
+            <div className='rame1'>
                 <div className='ramesrame1'>
                   <h1 className='year'>{item.year}</h1>
                   <div className='dot'></div>

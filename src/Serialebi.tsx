@@ -1,7 +1,19 @@
 import React from 'react';
 import './Filmebi.css';
 
-import { Item } from './data.json';
+interface Item {
+  title: string;
+  thumbnail: {
+    regular: {
+      small: string;
+    };
+  };
+  isBookmarked: boolean;
+  year: string;
+  category: string;
+  rating: string;
+}
+
 
 interface SerialebiProps {
   title: string;
