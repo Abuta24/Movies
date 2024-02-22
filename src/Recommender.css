@@ -53,3 +53,27 @@
     align-items: center;
     flex-direction: column;
 }
+
+@media (width >= 768px){
+    .foto{
+        width: 220px;
+        height: 140px;
+    }
+    .recommender-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (width >= 1440px){
+    .foto{
+        width: 280px;
+        height: 174px;
+        flex-shrink: 0;
+    }
+    .recommender-items{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 40px;
+    }
+}

@@ -43,6 +43,16 @@ input{
     background-color: transparent;
     border: none;
     outline: none;
+    background-image: url(./search.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+.ilia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
 }
 
 .input{
@@ -51,4 +61,61 @@ input{
     gap: 16px;
     margin-top: 24px;
     margin-left: 16px;
+}
+
+@media (width >= 768px){
+    .header{
+        width: 750px;
+        height: 72px;
+        border-radius: 10px;
+    }
+    .ilia{
+        justify-content: left;
+    }
+    .main{
+        justify-content: left;
+        margin: 0;
+    }
+}
+
+@media (width >= 1440px){
+    .kunilingusi{
+        display: flex;
+    }
+    body{
+        display: block;
+    }
+    .header{
+        flex-direction: column;
+        width: 96px;
+        height: 960px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        margin: 32px;
+        justify-content: start;
+    }
+    nav{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .zoma{
+        width: 20px;
+    }
+    .witeli{
+        margin-top: 35px;
+        width: 32px;
+        height: 25.6px;
+        flex-shrink: 0;
+    }
+    .nigga{
+        margin-top: 500px;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+    .div{
+        position: absolute;
+        left: 50px;
+        top: 0;
+    }
 }

@@ -34,3 +34,28 @@
     align-items: center;
     gap: 6px;
 }
+
+@media (width >= 768px){
+    .photo{
+        width: 220px;
+        height: 140px;
+    }
+    .Filmebi-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 29px;
+    }
+}
+
+@media (width >= 1440px){
+    .photo{
+        width: 280px;
+        height: 174px;
+        flex-shrink: 0;
+    }
+    .Filmebi-items{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 29px;
+    }
+}
