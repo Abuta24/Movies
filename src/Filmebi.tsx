@@ -1,18 +1,6 @@
 import React from 'react';
 import './Filmebi.css';
-
-
-interface Item {
-  thumbnail: {
-    regular: {
-      small: string;
-    };
-  };
-  year: number;
-  category: string;
-  rating: number;
-  title: string;
-}
+import { Item } from './item.interface';
 
 interface FilmebiProps {
   title: string;

@@ -4,19 +4,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import Recommender from '../Recommender';
 
-interface Item {
-  title: string;
-  thumbnail: {
-    regular: {
-      small: string;
-    };
-  };
-  isBookmarked: boolean;
-  year: string;
-  category: string;
-  rating: string;
-  isTrending: boolean;
-}
+
 
 export default function Home() {
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Recommender.css';
-import Item  from './data.json'; 
+import { Item } from './item.interface';
+
 
 interface RecommenderProps {
   title: string;
