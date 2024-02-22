@@ -1,0 +1,36 @@
+.Filmebi-item{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filmebi-title{
+    color: var(--Pure-White, #FFF);
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    margin-top: 24px;
+}
+
+.Filmebi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo{
+    width: 250px;
+    height: 166px;
+    border-radius: 8px;
+}
+
+.ramesrame2{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
