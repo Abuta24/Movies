@@ -1,5 +1,4 @@
 import Filmebi from '../Filmebi'
-import './movies.css'
 import Data  from './data.json'; 
 
 

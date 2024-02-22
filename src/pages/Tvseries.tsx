@@ -1,4 +1,3 @@
-import './movies.css'
 import Data  from './data.json'; 
 import Serialebi from '../Serialebi';
 
